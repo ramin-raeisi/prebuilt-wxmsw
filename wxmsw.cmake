@@ -31,3 +31,5 @@ ELSE(${AZI_STATIC_LIBS})
   set(Wx_LIBRARIES optimized ${WX_LIB_RELEASE}/wxbase29u.lib optimized ${WX_LIB_RELEASE}/wxbase29u_net.lib optimized ${WX_LIB_RELEASE}/wxbase29u_xml.lib optimized ${WX_LIB_RELEASE}/wxmsw29u_adv.lib optimized ${WX_LIB_RELEASE}/wxmsw29u_aui.lib optimized ${WX_LIB_RELEASE}/wxmsw29u_core.lib optimized ${WX_LIB_RELEASE}/wxmsw29u_html.lib optimized ${WX_LIB_RELEASE}/wxmsw29u_media.lib optimized ${WX_LIB_RELEASE}/wxmsw29u_qa.lib optimized ${WX_LIB_RELEASE}/wxmsw29u_richtext.lib optimized ${WX_LIB_RELEASE}/wxmsw29u_xrc.lib debug ${WX_LIB_DEBUG}/wxbase29ud.lib debug ${WX_LIB_DEBUG}/wxbase29ud_net.lib debug ${WX_LIB_DEBUG}/wxbase29ud_xml.lib debug ${WX_LIB_DEBUG}/wxmsw29ud_adv.lib debug ${WX_LIB_DEBUG}/wxmsw29ud_aui.lib debug ${WX_LIB_DEBUG}/wxmsw29ud_core.lib debug ${WX_LIB_DEBUG}/wxmsw29ud_html.lib debug ${WX_LIB_DEBUG}/wxmsw29ud_media.lib debug ${WX_LIB_DEBUG}/wxmsw29ud_qa.lib debug ${WX_LIB_DEBUG}/wxmsw29ud_richtext.lib debug ${WX_LIB_DEBUG}/wxmsw29ud_xrc.lib)
 ENDIF(${AZI_STATIC_LIBS})
   
+macro(AziWxMsw)
+endmacro(AziWxMsw)
